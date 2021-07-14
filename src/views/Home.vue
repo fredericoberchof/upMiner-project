@@ -3,13 +3,13 @@
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  // import Header from '../components/Header'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      // Header,
     },
   }
 </script>
