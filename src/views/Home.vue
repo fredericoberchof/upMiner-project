@@ -1,15 +1,23 @@
 <template>
-  <hello-world />
+  <v-main>
+     <Carousel />
+      <Buttons />
+      <ContentInicialPage/>
+  </v-main>
 </template>
 
 <script>
-  // import Header from '../components/Header'
+import Carousel from "@/components/Carousel";
+import Buttons from "@/components/Buttons";
+import ContentInicialPage from "@/components/ContentInicialPage";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      // Header,
-    },
-  }
+  components: {
+    Carousel,
+    Buttons,
+    ContentInicialPage,
+  },
+};
 </script>

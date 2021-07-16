@@ -1,6 +1,6 @@
 <template>
   <div class="carouselBlock">
-    <v-carousel hide-delimiters cycle>
+    <v-carousel hide-delimiters vertical-delimiters cycle>
       <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src">
         <v-row class="fill-height title" align="center" justify="center">
           <div>{{ item.title }}</div>
@@ -37,3 +37,4 @@ export default {
   },
 };
 </script>
+

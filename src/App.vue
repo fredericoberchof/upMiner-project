@@ -1,30 +1,32 @@
 <template>
   <v-app>
-    <v-app-bar flat max-height="65">
+    <v-app-bar text max-height="65">
       <Header />
     </v-app-bar>
 
-    <v-content>
+    <router-view></router-view>
+
+    <!-- <v-content>
       <Carousel />
       <Buttons />
-      <Teste/>
-    </v-content>
+      <ContentInicialPage/>
+    </v-content> -->
   </v-app>
 </template>
 
 <script>
 import Header from "./components/Header";
-import Carousel from "./components/Carousel";
-import Buttons from "./components/Buttons";
-import Teste from "./components/Teste";
+// import Carousel from "./components/Carousel";
+// import Buttons from "./components/Buttons";
+// import ContentInicialPage from "./components/ContentInicialPage";
 // import Footer from "./components/common/Footer";
 export default {
   name: "App",
   components: {
     Header,
-    Carousel,
-    Buttons,
-    Teste
+    // Carousel,
+    // Buttons,
+    // ContentInicialPage
     // Footer
   },
   data: () => ({
