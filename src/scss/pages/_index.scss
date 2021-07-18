@@ -3,7 +3,7 @@
   position: relative;
 
   .v-window {
-    @media only screen and (max-width: 599px) {
+    @media only screen and (max-width: 480px) {
       height: 220px !important;
     }
   }

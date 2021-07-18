@@ -1,6 +1,6 @@
 <template>
   <v-toolbar text class="mainHeader">
-     <img class="mr-3" :src="require('@/assets/upminer.png')"/>
+    <img class="mr-3" :src="require('@/assets/upminer.png')" />
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-xs-only">
       <v-btn text><router-link to="/">Home</router-link></v-btn>

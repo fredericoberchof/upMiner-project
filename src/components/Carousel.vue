@@ -7,6 +7,9 @@
         </v-row>
       </v-carousel-item>
     </v-carousel>
+    <div class="divider">
+      <v-divider></v-divider>
+    </div>
   </div>
 </template>
 
@@ -17,8 +20,8 @@ export default {
     return {
       items: [
         {
-          src: "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
-          title: "Esquilo fofo",
+          src: "./images/bannermain.jpeg",
+          title: "upMiner",
         },
         {
           src: "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
@@ -38,3 +41,9 @@ export default {
 };
 </script>
 
+<style>
+.divider {
+  background: linear-gradient(to left, #f83600, #fe8c00);
+  height: 5px;
+}
+</style>

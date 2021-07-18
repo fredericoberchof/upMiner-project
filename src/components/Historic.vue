@@ -68,11 +68,11 @@ export default {
       team: [
         {
           role: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
-          icon: "/time-line.png",
+          icon: "/images/time-line.png",
         },
         {
           role: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
-          icon: "/time-line.png",
+          icon: "/images/time-line.png",
         },
       ],
     };
