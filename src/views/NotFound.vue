@@ -1,5 +1,5 @@
 <template>
   <div >
-    <h1>This is an NOT FOUND page</h1>
+    <h1>Esta página não existe, vamos tentar outra? =)</h1>
   </div>
 </template>
