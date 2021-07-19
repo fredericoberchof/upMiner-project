@@ -21,7 +21,7 @@ Esta SPA foi desenvolvida como meio de avaliação. Foi customizada com algumas 
 $ git clone https://github.com/fredericoberchof/upMiner_project.git
 
 # Entrar na página do projeto
-$ cd upMiner-project
+$ cd upMiner_project
 
 # Instalar as dependências
 $ npm install
